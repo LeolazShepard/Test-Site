@@ -1,0 +1,248 @@
+@charset "utf-8"
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+html{
+	
+	height: 100%
+}
+/*Загальні стилі*/
+body{
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100%;
+color: #333;
+background:  #cefffe;	
+font-size: 1em;
+font-family: "Segoe UI", sans-serif;
+line-height: 135%; 
+}
+
+/*Ссилки*/
+a{
+	color: #01a332;
+	text-decoration: none;
+	transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+}
+a:hover{
+	color: #05adc6;
+	text-decoration: none;
+	transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+}
+a:active{
+	color: #004916;
+
+	
+}
+/*Selection block*/
+::selection{
+	background-color: #01a332;
+	color: #fff;
+}
+-moz-::selection{
+	background-color: #01a332;
+	color: #fff;
+}
+-webkit-::selection{
+	background-color: #01a332;
+	color: #fff;
+}
+-ms-::selection{
+	background-color: #01a332;
+	color: #fff;
+}
+img{
+	max-width: 100%
+	height: auto;
+	width: auto\9;
+}
+
+hr{
+	display: block;
+	border:0;
+	height: 1px;
+	border-top: 1px solid #ccc;
+	padding: 0; 
+}
+/*Стилі для вирівнювання*/
+.right{float: right;}
+.left{float: left;}
+.clear{clear: both;}
+
+header, footer{
+width: 98%;
+background-color:#fff;
+min-height: 50px;
+float: left;
+}
+
+/*Стилі для шапки*/
+header{
+border-bottom: 2px solid #0bbfbb;
+padding: 1%;
+}
+#logo{
+	color:#5f6d6d;
+	font-size: 2em;
+	font-family: Comic Sans MS, sans-serif;
+}
+.contact a{
+	color:#5f6d6d;
+	font-size:1.2em;
+	font-family: Comic Sans MS, sans-serif;
+	margin-left: 25px;
+}
+input[type=text].field {
+	border-radius: 5px;
+	border: 2px solid #0bbfbb;
+	padding: 5px;
+	margin-left: 20px;
+}
+input[type=text].field:focus {
+	border: 2px solid #01a332;
+	outline: none;
+}
+/*Стилі для меню*/
+#menu{ 
+	margin-top: 2%;
+	font-size: 1.7em;
+	color: #5f6d6d; 
+	font-family: Comic Sans MS, sans-serif;
+}
+#menu hr{
+	width: 500px;
+	max-width: 100%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+/*Стилі для ссилок меню*/
+#menu-hrefs a {
+color: #5f6d6d;
+padding: 5px;
+border-radius: 10px;
+margin-right: 5px;
+}
+#menu-hrefs a:hover {
+background-color: #b8dde3;
+}
+
+/*Стилі для анонсів*/
+#wrapper{
+	float: left;
+	width: 100%;
+	margin-top:20px;
+}
+#wrapper #articles{
+float: left;
+width: 80%;
+margin-left: 10%;
+}
+#wrapper #articles article{
+	float: left;
+	width: 31.3%;
+	border: 1px solid #0bbfbb;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: #fff;
+	margin-right: 2%;
+	min-height:400px;
+}
+#wrapper #articles article img{
+	width: 100%;
+	height: 200px;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 1px solid #0bbfbb;
+	margin-bottom: 10px;
+}
+#wrapper #articles article h2{
+	width: 90%;
+	margin-left: 5%;
+	font-weight: normal;
+	color: #4a4a4a;
+	font-size: 1.7em;
+}
+#wrapper #articles article p{
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	font-size: 1em;
+	width: 80%;
+	margin-left: 10%;
+	text-indent: 1em;
+}
+#wrapper #articles article a{
+	padding: 5px;
+	background-color: #4E5657;
+	border-radius: 7px;
+	margin-left: 5%;
+	float: left;
+	margin-bottom: 3%;
+	color: #fff;
+}
+/*Стилі для основи*/
+#main_soc_block{
+	width: 100%;
+	padding: 2% 0;
+	border-bottom: 2px solid #0bbfbb;
+	border-top: 2px solid #0bbfbb;
+	margin: 20px 0px;
+	float: left;
+	background: url(../image/fon.jpg) repeat-x center;
+	min-height:  250px;
+}
+#main_soc_block_in{
+	text-align: center;
+	padding: 1%;
+	min-height: 150px;
+	background-color: #fafafa;
+	border: 1px solid silver;
+	font-size: 1.2em;
+	border-radius: 10px;
+	width: 600px;
+}
+#main_soc_block_in a{
+	float: left;
+	padding: 5px;
+	padding: 5px;
+	background-color: #4E5657;
+	border-radius: 7px;
+	color: #fff;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 40%;
+
+
+}
+/*Стилі для футера*/
+footer{
+padding: 1%;
+border-top:  2px solid #0bbfbb;
+margin-top: 10px;
+padding-bottom: 2%;
+}
+.footer-text{
+	font-size: 0.7em;
+}
+.footer-icons{
+	width: 30px;
+	height: auto;
+}
+#page-wrap:after {
+	content: "";
+	display: block;
+
+}
+footer, #page-wrap:after {
+	height: 10px;
+}
+#page-wrap{
+	min-height: 87%;
+	margin-bottom: -10px;
+}
