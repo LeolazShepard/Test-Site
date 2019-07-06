@@ -217,8 +217,16 @@ margin-left: 10%;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	margin-left: 40%;
-
-
+}
+/*Стилі для сторінки "Про нас"*/
+#about_us{
+	width: 100%;
+	float:left;
+	background-color: #fff;
+	border-radius: 7px;
+	border:1px solid #0bbfbb;
+	box-sizing: border-box;
+	padding: 1%;
 }
 /*Стилі для футера*/
 footer{
