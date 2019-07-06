@@ -141,12 +141,13 @@ background-color: #b8dde3;
 	width: 100%;
 	margin-top:20px;
 }
-#wrapper #articles{
+#wrapper .articles{
 float: left;
 width: 80%;
 margin-left: 10%;
+margin-bottom: 10px;
 }
-#wrapper #articles article{
+#wrapper .articles article{
 	float: left;
 	width: 31.3%;
 	border: 1px solid #0bbfbb;
@@ -156,35 +157,38 @@ margin-left: 10%;
 	margin-right: 2%;
 	min-height:400px;
 }
-#wrapper #articles article img{
+#wrapper .articles article img{
 	width: 100%;
 	height: 200px;
 	border-radius: 5px 5px 0px 0px;
 	border-bottom: 1px solid #0bbfbb;
 	margin-bottom: 10px;
 }
-#wrapper #articles article h2{
+#wrapper .articles article h2{
 	width: 90%;
 	margin-left: 5%;
 	font-weight: normal;
 	color: #4a4a4a;
 	font-size: 1.7em;
 }
-#wrapper #articles article p{
+#wrapper .articles article p{
 	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 	font-size: 1em;
 	width: 80%;
 	margin-left: 10%;
 	text-indent: 1em;
 }
-#wrapper #articles article a{
+#wrapper .articles article a{
 	padding: 5px;
+	padding-bottom: 7px;
 	background-color: #4E5657;
 	border-radius: 7px;
 	margin-left: 5%;
 	float: left;
 	margin-bottom: 3%;
 	color: #fff;
+	vertical-align: center;
+
 }
 /*Стилі для основи*/
 #main_soc_block{
@@ -231,19 +235,21 @@ margin-left: 10%;
 	padding: 1%;
 }
 /*Стилі для сторінки "Зворотній зв'язок"*/
-.form
+.form{
+
+}
 /*Стилі для футера*/
 footer{
 padding: 1%;
 border-top:  2px solid #0bbfbb;
-margin-top: 10px;
+margin-top: 20px;
 padding-bottom: 2%;
 }
 .footer-text{
 	font-size: 0.7em;
 }
 .footer-icons{
-	width: 30px;
+	width: 20px;
 	height: auto;
 }
 #page-wrap:after {
@@ -257,4 +263,7 @@ footer, #page-wrap:after {
 #page-wrap{
 	min-height: 87%;
 	margin-bottom: -10px;
+}
+#soc-text{
+	font-size: 0.7em;
 }
