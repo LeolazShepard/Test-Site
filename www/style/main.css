@@ -108,7 +108,7 @@ input[type=text].field {
 	margin-left: 20px;
 }
 input[type=text].field:focus {
-	border: 2px solid #01a332;
+	border: 2px solid #1ac77c;
 	outline: none;
 }
 /*Стилі для меню*/
@@ -236,8 +236,58 @@ margin-bottom: 10px;
 }
 /*Стилі для сторінки "Зворотній зв'язок"*/
 .form{
+width: 60%;
+margin-left: 20%;
+float: left;
+}
+.form input{
+	width: 40%;
+	border-radius: 5px;
+	border: 2px solid #0bbfbb;
+	padding: 5px;
+	float: left;
+	clear: both;
+	margin-bottom: 10px;	
+}
+.form input:focus, .form textarea:focus{
+	border: 2px solid #1ac77c;
+	outline: none;
+}
+.form label{
+	float: left;
+	width: 100%;
+	margin-bottom:10px;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+.form textarea{
+	width: 60%;
+	float: left;
+	clear: both;
+	background-color: #fff;
+	border: 2px solid #0bbfbb;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 1em;
 
 }
+.form #send:hover{
+	background-color: #357353;
+}
+.form #send{	
+	cursor: pointer;
+	border: 1px solid #fff;
+	float: left;
+	padding: 10px;
+	background-color: #4c4f4f;
+	border-radius: 15px;
+	margin-top: 10px;
+	color: #fff;
+	font-size: 1em;
+	vertical-align: center;
+
+}
+
 /*Стилі для футера*/
 footer{
 padding: 1%;
