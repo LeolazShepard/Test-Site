@@ -1,4 +1,7 @@
 @charset "utf-8"
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400i&display=swap');
+
 *{
 	margin: 0;
 	padding: 0;
@@ -92,8 +95,8 @@ padding: 1%;
 }
 #logo{
 	color:#5f6d6d;
-	font-size: 2.4em;
-	font-family: Roboto,sans-serif;
+	font-size: 2.7em;
+	font-family:"Roboto";
 }
 .contact a{
 	color:#5f6d6d;
