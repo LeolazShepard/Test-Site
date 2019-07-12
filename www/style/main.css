@@ -1,7 +1,6 @@
 @charset "utf-8"
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto:400i&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 *{
 	margin: 0;
 	padding: 0;
@@ -20,7 +19,7 @@ height: 100%;
 color: #333;
 background:  #cefffe;	
 font-size: 1em;
-font-family: "Segoe UI", sans-serif;
+font-family: Roboto, sans-serif;
 line-height: 135%; 
 }
 
@@ -152,19 +151,27 @@ margin-bottom: 10px;
 }
 #wrapper .articles article{
 	float: left;
-	width: 31.3%;
 	border: 1px solid #0bbfbb;
 	box-sizing: border-box;
 	border-radius: 5px;
 	background-color: #fff;
-	margin-right: 2%;
 	min-height:400px;
 }
+@media (min-width: 700px){
+#wrapper .articles article{
+	width: 31.3333333%;
+	margin-right: 2%;
+	
+}}
+@media (max-width: 699px){
+#wrapper .articles article{
+	width: 100%;
+	margin-bottom: 10px;
+}}
 #wrapper .articles article img{
 	width: 100%;
 	height: 200px;
 	border-radius: 5px 5px 0px 0px;
-	border-bottom: 1px solid #0bbfbb;
 	margin-bottom: 10px;
 }
 #wrapper .articles article h2{
@@ -175,7 +182,7 @@ margin-bottom: 10px;
 	font-size: 1.7em;
 }
 #wrapper .articles article p{
-	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	font-family: Roboto, sans-serif;
 	font-size: 1em;
 	width: 80%;
 	margin-left: 10%;
@@ -191,7 +198,12 @@ margin-bottom: 10px;
 	margin-bottom: 3%;
 	color: #fff;
 	vertical-align: center;
-
+	margin-top: 10px;
+}
+#wrapper .articles article a:hover{
+	
+	background-color: #4F938A;
+	
 }
 /*Стилі для основи*/
 #main_soc_block{
@@ -214,6 +226,8 @@ margin-bottom: 10px;
 	font-size: 1.2em;
 	border-radius: 10px;
 	width: 600px;
+	max-width: 98%;
+	box-sizing: border-box;
 }
 #main_soc_block_in a{
 	float: left;
@@ -226,6 +240,10 @@ margin-bottom: 10px;
 	margin-left: 43%;
 	font-size: 0.8em;
 	vertical-align: center;
+	margin-top: 10px;
+}
+#main_soc_block_in a:hover {
+	background-color: #4F938A;
 }
 /*Стилі для сторінки "Про нас"*/
 #about_us{
@@ -288,9 +306,45 @@ float: left;
 	color: #fff;
 	font-size: 1em;
 	vertical-align: center;
+}
+/*Стилі для сторінки зі статею*/
+.image_article{
+	margin-left: 10%;
+	margin-right:  10%;
 
 }
+.image_article img{
+	border-radius: 10px;
+	max-width:100%;
+	height:auto;
+	border: 2px solid #61D5C3;
+	box-sizing: border-box;
+}
+#about_article{
+	width: 100%;
+	float:left;
+	background-color: #fff;
+	border-radius: 7px;
+	border:1px solid #0bbfbb;
+	box-sizing: border-box;
+	padding: 1%;
+	font-size: 1.2em;
+	font-family: Roboto, sans-serif ;
+}
+#about_article p{
+margin: 1%;
+}
+#about_article h2{
+	text-align: center;
+	margin: 1%;
+}
+#about_article hr{
+	width: 70%;
+	max-width: 100%;
+	margin-top: 5px;
+	margin-bottom: 10px;
 
+}
 /*Стилі для футера*/
 footer{
 padding: 1%;
